@@ -9,6 +9,7 @@ Source indicates whether the observation belongs to the test or training (train)
 
 ##Activity
 There are six values that indicate the activity name. The values are:
+
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
