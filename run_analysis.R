@@ -7,7 +7,7 @@
 #               4. Appropriately labels the data set with descriptive variable names.
 #               5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-#åsetwd("/Users/Muz/Documents/coursera/course3/ass3/UCI HAR Dataset") # set your working directory here - it must include the Samsung data
+#setwd("/Users/Muz/Documents/coursera/course3/ass3/UCI HAR Dataset") # set your working directory here - it must include the Samsung data
 library(dplyr)
 library(reshape2)
 # The subjects are extracted 
