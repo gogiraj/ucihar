@@ -39,5 +39,6 @@ combined_casted  <- (dcast(combined_trans, subject + source + activity ~ variabl
 tidy             <- melt(combined_casted,id=c("subject","source","activity"))
 
 #the tidy_data is written to the working directory
-setwd(unichar)
-write.table(tidy,"tidy_data.txt")
+wd <- paste(getwd(),"/uciha",sep="")
+setwd(wd)
+write.table(tidy,"tidy_data.txt",row.name=FALSE)
