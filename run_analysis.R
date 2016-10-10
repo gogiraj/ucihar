@@ -7,8 +7,9 @@
 #               4. Appropriately labels the data set with descriptive variable names.
 #               5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-#setwd("") # set your working directory here - it must include the Samsung data
-
+#åsetwd("/Users/Muz/Documents/coursera/course3/ass3/UCI HAR Dataset") # set your working directory here - it must include the Samsung data
+library(dplyr)
+library(reshape2)
 # The subjects are extracted 
 # Each row identifies the subject who performed the activity for each window sample. 
 subject          <- rbind(mutate(read.table("test/subject_test.txt",col.names="subject"),source="test"),
